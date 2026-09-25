@@ -18,11 +18,10 @@ My personal portfolio website, hand-coded from scratch with **HTML, CSS and Java
 | `index.html` | Page structure and content |
 | `style.css` | All styling, colour variables and the mobile layout |
 | `script.js` | Menu, theme toggle, typing effect, filters, scroll reveal |
-| `Adil_Slim_CV.pdf` | Downloadable copy of my CV |
 
 ## Run it locally
 Download the folder and open `index.html` in any browser.
 
 ## About me
-London-based graduate moving into software development. I'm looking for junior developer, QA and apprenticeship roles.
-[LinkedIn](https://www.linkedin.com/in/adil-slim) · adilslim816@gmail.com
+Graduate moving into software development. I'm looking for junior developer, QA and apprenticeship roles.
+[LinkedIn](https://www.linkedin.com/in/adil-slim)
