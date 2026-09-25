@@ -140,18 +140,7 @@ a { color: inherit; }
 .text-link { font-weight: 600; text-decoration: none; margin-top: auto; }
 .text-link:hover { text-decoration: underline; }
 
-/* ---------- Experience ---------- */
-.timeline { list-style: none; border-left: 2px solid var(--line); margin-left: 6px; }
-.timeline li { position: relative; display: grid; grid-template-columns: 180px 1fr; gap: 20px; padding: 0 0 30px 28px; }
-.timeline li::before {
-  content: ""; position: absolute; left: -7px; top: 6px; width: 12px; height: 12px;
-  border-radius: 50%; background: var(--bg-alt); border: 2px solid var(--text);
-}
-.when { color: var(--muted); font-size: .9rem; padding-top: 2px; }
-.what h3 { font-size: 1.05rem; }
-.org { color: var(--text-soft); font-weight: 500; font-size: .92rem; margin-bottom: 4px; }
-.what p:last-child { color: var(--text-soft); font-size: .95rem; }
-
+/* ---------- Education ---------- */
 .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
 .edu { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
 .edu h3 { margin-bottom: 12px; }
@@ -180,7 +169,6 @@ a { color: inherit; }
   .hero { padding: 70px 0 60px; }
   .section { padding: 64px 0; }
   .two-col, .edu-grid { grid-template-columns: 1fr; gap: 10px; }
-  .timeline li { grid-template-columns: 1fr; gap: 2px; }
   .project-grid { grid-template-columns: 1fr; }
 }
 
@@ -188,3 +176,5 @@ a { color: inherit; }
   * { transition: none !important; animation: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+.small-row { margin-top: 0; gap: 18px; }
