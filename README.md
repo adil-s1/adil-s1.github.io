@@ -1,27 +1,29 @@
 # Adil Slim — Portfolio Website
 
-My personal portfolio website, hand-coded from scratch with **HTML, CSS and JavaScript**. No templates, no frameworks.
+My personal portfolio, hand-coded from scratch with **HTML, CSS and vanilla JavaScript**. No frameworks, no templates, no libraries.
 
 **Live site:** https://adil-s1.github.io
 
 ## Features
-- Responsive layout that works on mobile, tablet and desktop (CSS Grid and Flexbox)
-- Light / dark mode toggle that remembers your choice (`localStorage`)
-- Typing animation in the header
-- Project filter buttons (All / Code / Data / Web)
-- Fade-in on scroll using the `IntersectionObserver` API
-- Mobile hamburger menu
+- **Particle-network hero** drawn on the Canvas API that reacts to the mouse (and pauses off-screen to save battery)
+- **Letter-by-letter title reveal**, typing effect and intro loader
+- **Scroll-triggered animations** using `IntersectionObserver`, with animated number counters
+- **3D tilt cards** with a spotlight that follows the cursor, and magnetic buttons
+- **Auto-playing Snake demo**: a tiny "AI" steers the snake towards the food
+- A code card that **types itself out**, a timeline that **draws itself** as you scroll, and a scroll progress bar
+- Fully **responsive**, with a mobile menu
+- Respects **`prefers-reduced-motion`** for accessibility
 
 ## Files
 | File | What it does |
 |---|---|
 | `index.html` | Page structure and content |
-| `style.css` | All styling, colour variables and the mobile layout |
-| `script.js` | Menu, theme toggle, typing effect, filters, scroll reveal |
+| `style.css` | Design system, layout, animations and responsive rules |
+| `script.js` | Canvas particles, reveals, counters, tilt, typing and the Snake demo |
 
 ## Run it locally
 Download the folder and open `index.html` in any browser.
 
 ## About me
 Graduate moving into software development. I'm looking for junior developer, QA and apprenticeship roles.
-[LinkedIn](https://www.linkedin.com/in/adil-slim)
+[LinkedIn](https://www.linkedin.com/in/adil-slim) · [Snake game](https://adil-s1.github.io/snake-game)
