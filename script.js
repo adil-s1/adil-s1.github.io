@@ -33,7 +33,7 @@ function startHero() {
 }
 
 // ---------- 3. Typing effect for the role line ----------
-const roles = ['Junior Software Developer', 'Front-end builder', 'SQL & data problem-solver', 'Always learning, always shipping'];
+const roles = ['Aspiring Junior Software Developer', 'Aspiring front-end builder', 'Aspiring SQL & data problem-solver', 'Still learning, always building'];
 const typedEl = document.getElementById('typed');
 let roleIndex = 0, charIndex = 0, deleting = false;
 
@@ -219,7 +219,7 @@ if (!isTouch && !reduceMotion) {
 // ---------- 10. "About me" code card types itself out ----------
 const codeLines = [
   ['tk-k', 'const '], ['tk-v', 'adil'], ['', ' = {\n'],
-  ['tk-p', '  role'], ['', ': '], ['tk-s', '"Junior Software Developer"'], ['', ',\n'],
+  ['tk-p', '  role'], ['', ': '], ['tk-s', '"Aspiring Junior Software Developer"'], ['', ',\n'],
   ['tk-p', '  stack'], ['', ': ['], ['tk-s', '"HTML"'], ['', ', '], ['tk-s', '"CSS"'], ['', ', '], ['tk-s', '"JS"'], ['', ', '], ['tk-s', '"SQL"'], ['', '],\n'],
   ['tk-p', '  degree'], ['', ': '], ['tk-s', '"BA (Hons) International Marketing, 2:1"'], ['', ',\n'],
   ['tk-p', '  learning'], ['', ': ['], ['tk-s', '"JavaScript"'], ['', ', '], ['tk-s', '"Git"'], ['', '],\n'],
